@@ -1,0 +1,51 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .loading-shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 56px;
+    right: 0;
+    background: rgba(0, 0, 0, 0.15);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hide-show-container {
+    display: flex;
+
+    .hide-show-wrapper {
+      display: flex;
+      align-items: start;
+      margin-left: 30px;
+
+      button {
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .filter-input {
+    width: 100%;
+  }
+
+  table {
+    width: 100%;
+
+    th.mat-sort-header-sorted {
+      color: black;
+    }
+  }
+}
+
+
+
+
+
